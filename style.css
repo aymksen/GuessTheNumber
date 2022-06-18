@@ -13,6 +13,8 @@ html {
 
   animation: AnimationName 7s ease infinite;*/
   overflow-x: hidden;
+  cursor: url("cursor1.png") 39 39, auto;
+  --pointer: url("cursor2.png") 30 30, auto;
 }
 
 *:focus {
@@ -22,9 +24,6 @@ html {
 :root {
   --card-width: 40vw;
   --card-height: 400px;
-  cursor: url("cursor1.png") 39 39, auto;
-  --pointer: url("cursor2.png") 30 30, auto;
-  --pointer2: url("cursor2.png") 30 30, auto;
 }
 @media only screen and (max-width: 910px) {
   :root {
@@ -37,7 +36,7 @@ h1 {
   font-size: calc(1vw + 40px);
 }
 .input > input {
-  cursor: var(--pointer2);
+  cursor: var(--pointer);
   font-size: 30px;
   text-align: center;
   border-radius: 40px;
