@@ -9,9 +9,9 @@ html {
   font-family: "Pacifico", cursive;
 
   /* background: linear-gradient(to bottom, #030461, #126eb9, #cacaca),
-    url(https://grainy-gradients.vercel.app/noise.svg); */
+    url(https://grainy-gradients.vercel.app/noise.svg); 
 
-  animation: AnimationName 7s ease infinite;
+  animation: AnimationName 7s ease infinite;*/
   overflow: hidden;
 }
 
