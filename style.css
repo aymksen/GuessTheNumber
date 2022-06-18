@@ -34,6 +34,7 @@ h1 {
   font-size: calc(1vw + 40px);
 }
 .input > input {
+  cursor: var(--pointer2);
   font-size: 30px;
   text-align: center;
   border-radius: 40px;
@@ -60,12 +61,12 @@ input::-webkit-inner-spin-button {
   background-color: rgba(255, 255, 255, 0.075);
   font-family: "Pacifico", cursive;
   color: #ffffff;
-  cursor: pointer;
+  cursor: var(--pointer);
   border: none;
   box-shadow: 0px 0px 20px black;
 }
 .button > button:hover {
-  background-color: #000000b2;
+  background-color: #00000031;
   color: white;
   transition: all 0.3s;
 }
