@@ -20,10 +20,10 @@ html {
 }
 
 :root {
-  --card-width: 34vw;
+  --card-width: 40vw;
   --card-height: 400px;
 }
-@media only screen and (max-width: 1268px) {
+@media only screen and (max-width: 910px) {
   :root {
     --card-width: 90vw;
   }
@@ -42,7 +42,8 @@ h1 {
   border: 0px solid;
   box-shadow: 0px 0px 20px black;
   color: white;
-  width: calc(var(--card-width) / 1.1);
+  width: calc(var(--card-width));
+  margin-bottom: 20px;
 }
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -50,9 +51,9 @@ input::-webkit-inner-spin-button {
 }
 
 .button > button {
-  margin: 10px;
+  margin: 15px;
   font-size: 25px;
-  width: calc(var(--card-width) / 3.2);
+  width: calc(var(--card-width) / 2.9);
   height: 60px;
   margin-top: 30px;
   border-radius: 55px;
@@ -87,11 +88,6 @@ input::-webkit-inner-spin-button {
   border-radius: 50px;
 }
 .alle {
-  width: 500px;
-  height: 300px;
-
-  border-radius: 25px;
-
   margin: auto;
 }
 .card {
@@ -100,34 +96,5 @@ input::-webkit-inner-spin-button {
   height: var(--card-height);
   padding: 3px;
   position: relative;
-  border-radius: 50px;
-  justify-content: center;
-  align-items: center;
   text-align: center;
 }
-
-/* .card::after {
-  position: absolute;
-  content: "";
-  top: calc(var(--card-height) / 5);
-  left: 0;
-  right: 0;
-  z-index: -1;
-  height: 90%;
-  width: 100%;
-  margin: 0 auto;
-  filter: blur(calc(var(--card-height) / 6));
-  background-image: linear-gradient(var(--rotate), #9487df, #6f30e4, #8c59dff6);
-  opacity: 1;
-  transition: opacity 0.5s;
-  animation: spin 2.5s ease infinite;
-}
-
-@keyframes spin {
-  0% {
-    --rotate: 0deg;
-  }
-  100% {
-    --rotate: 360deg;
-  }
-} */
