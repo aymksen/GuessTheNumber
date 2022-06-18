@@ -12,7 +12,7 @@ html {
     url(https://grainy-gradients.vercel.app/noise.svg); 
 
   animation: AnimationName 7s ease infinite;*/
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 *:focus {

@@ -22,9 +22,28 @@
         --gradient-color-2: #3a3aff;
         --gradient-color-3: #ff61ab;
         --gradient-color-4: #e63946;
-        position: absolute;
+        position: fixed;
         z-index: -100;
         top: 0px;
+      }
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #0e73adc5;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #ff61ab;
+        border-radius: 20px;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
       }
     </style>
   </head>
