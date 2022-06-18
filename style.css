@@ -1,19 +1,20 @@
-@property --rotate {
+/* @property --rotate {
   syntax: "<angle>";
   initial-value: 132deg;
   inherits: false;
-}
+} */
 
 html {
   scroll-behavior: smooth;
   font-family: "Pacifico", cursive;
-  text-align: center;
-  background: linear-gradient(to bottom, #030461, #126eb9, #cacaca),
-    url(https://grainy-gradients.vercel.app/noise.svg);
+
+  /* background: linear-gradient(to bottom, #030461, #126eb9, #cacaca),
+    url(https://grainy-gradients.vercel.app/noise.svg); */
 
   animation: AnimationName 7s ease infinite;
   overflow: hidden;
 }
+
 *:focus {
   outline: none;
 }
@@ -68,11 +69,13 @@ input::-webkit-inner-spin-button {
   transition: all 0.3s;
 }
 #tess {
+  text-align: center;
   font-size: 40px;
   vertical-align: middle;
   color: white;
 }
 #tes {
+  text-align: center;
   font-size: calc(1vw + 20px);
   vertical-align: middle;
   color: white;
@@ -103,7 +106,7 @@ input::-webkit-inner-spin-button {
   text-align: center;
 }
 
-.card::after {
+/* .card::after {
   position: absolute;
   content: "";
   top: calc(var(--card-height) / 5);
@@ -127,4 +130,4 @@ input::-webkit-inner-spin-button {
   100% {
     --rotate: 360deg;
   }
-}
+} */
