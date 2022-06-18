@@ -41,12 +41,18 @@ h1 {
   text-align: center;
   border-radius: 40px;
   height: 70px;
-  background-color: rgba(255, 255, 255, 0.158);
+
+  background-color: rgba(255, 255, 255, 0.13);
   border: 0px solid;
   box-shadow: 0px 0px 20px black;
   color: white;
   width: calc(var(--card-width));
   margin-bottom: 20px;
+}
+.input > input:hover {
+  background-color: #0000001e;
+  box-shadow: 0px 0px 15px black;
+  transition: all 0.3s;
 }
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -71,6 +77,7 @@ input::-webkit-inner-spin-button {
   background-color: #00000031;
   color: white;
   transition: all 0.3s;
+  box-shadow: 0px 0px 15px black;
 }
 #tess {
   text-align: center;
