@@ -48,6 +48,7 @@ h1 {
   color: white;
   width: calc(var(--card-width));
   margin-bottom: 20px;
+  -moz-appearance: textfield;
 }
 .input > input:hover {
   background-color: #0000001e;
