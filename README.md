@@ -1,2 +1,2 @@
 # GuessTheNumber
-Guess a number from 0 to 100
+Guess a number from 0 to 1000
