@@ -42,27 +42,36 @@ function auto() {
    if (autoGuess > num) {
     document.getElementById("tess").innerHTML =
     autoGuess + " is too hight<br>" + document.getElementById("tess").innerHTML;
-    
+    if(lasttemp == autoGuess )
+    {
+     autoGuess = autoGuess-1;
+    }
 
     autoGuess = autoGuess - parseInt(temp/2);
      temp = parseInt(temp/2);
      
-     if(lasttemp == autoGuess )
-     {
-      autoGuess = autoGuess-1;
-     }
+    
      lasttemp = autoGuess;
+
+
+
      tries += 1;
   } else if (autoGuess < num) {
     document.getElementById("tess").innerHTML =
     autoGuess + " is too low<br>" + document.getElementById("tess").innerHTML;
     if(lasttemp == autoGuess )
-    {
-      autoGuess =  autoGuess+1;
-    }
+   {
+     autoGuess =  autoGuess+1;
+   }
     autoGuess = parseInt(autoGuess+temp/2);
+   
    temp = parseInt(temp/2);
+
+   
    lasttemp = autoGuess;
+
+
+
    tries += 1;
   } else { 
       document.getElementById("tes").innerHTML =
