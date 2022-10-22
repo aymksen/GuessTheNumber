@@ -3,7 +3,7 @@ window.onload = function () {
   document.getElementById("Reset").addEventListener("click", reset);
   document.getElementById("auto").addEventListener("click", auto);
 };
-let range = 100;
+let range = 1000;
 let tries = 0;
 let num = Math.floor(Math.random() * range);
 console.log(num);
